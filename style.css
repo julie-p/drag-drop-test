@@ -1,0 +1,40 @@
+body {
+    background-color: #eee;
+    font-family: 'Montserrat';
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.draggable, 
+.droptarget {
+    border: 20px solid #fff;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    color: white; 
+    font-size: 2rem;
+}
+
+.one {
+    background-color: #f3a683;
+}
+
+.two {
+    background-color: #f7d794;
+}
+
+.three {
+    background-color: #ea8685;
+}
+
+.droptarget {
+    border: 10px dashed #fff;
+    transition: border-width 0.5s linear;
+}
+
+.hover {
+  border-width: 20px;
+}
